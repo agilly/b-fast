@@ -7,3 +7,5 @@ A basic C++ library to parse (and hopefully one day write) BGEN files. This was 
 * `BGEN_RETURN_CODE write_header(ofstream & bgenfile, file_info f_info)`, which writes a header contained in a `file_info` struct to an ofstream. Currently unfinished.
 
 `bgenfun.cpp` contains a few lines of code to read and parse genotype information.
+
+`helper.h` contains the `info(...)` and `error(...)` methods, as well as the combinatorics `choose(k,n)` function.
